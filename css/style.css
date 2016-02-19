@@ -1,0 +1,24 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body,div,span,dl,dd,ul,li,a,p,h1,h2{font-family:"微软雅黑"; font-size:12px; color:#494949; margin:0;padding:0; list-style:none; text-decoration:none; }
+a:hover,a:visited,a:focus{text-decoration: none;}
+input[ type=text]{border-radius:3px; border:1px  solid #CCC; width:120px; height:26px; color:#666;
+    line-height:26px;font-family:"Microsoft YaHei"; background-color: #fcfcfc;}
+
+/*选择月份样式*/
+.yee-datepicker{  display: none;  width:238px;  height: 160px;border:1px solid #aaaaaa;background:#fff;
+    -webkit-border-radius: 4px;  -moz-border-radius: 4px;  -o-border-radius: 4px;  -ms-border-radius: 4px;  border-radius: 4px;
+}
+.yee-datepicker-title{  text-align: center;margin: 10px 0;font-weight: normal;color: #555555;font-size: 14px;}
+.yee-datepicker-title select{border:none; width:80px;display: inline-block;line-height: 16px;  }
+.yee-datepicker-calendar{ width:100%;  }
+.yee-datepicker-calendar tr{width:100%;}
+.yee-datepicker-calendar td{width:33.3%; text-align: center; line-height: 24px; }
+.yee-state-default {width: 14px;  height: 14px; font-weight: normal;color: #555555;  font-size: 14px;  padding: 2px 4px;  border-radius: 100%;
+}
+.yee-state-default:hover {width: 14px;  height: 14px;line-height: 14px;font-weight: normal;background: #CCC; font-size: 14px;
+    padding: 2px 4px; color: #fff;
+}
+.yee-state-highlight{background: #3fbfc8;  color: #fff;
+}
+.spMonth{ margin-left: 12px;}
