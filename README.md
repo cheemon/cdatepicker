@@ -1,5 +1,6 @@
 # cdatepicker
-<p>description</p>
+<p>DESCRIPTION</p>
 Date month select
 <p>EXAMPLE:</p>
 $("#txtBeginDate,#txtEndDate").cyeedatepicker();
+
