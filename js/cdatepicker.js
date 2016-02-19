@@ -173,7 +173,7 @@
         }
     };
 
-    $.fn.cyeedatepicker=function(o){
+    $.fn.cdatepicker=function(o){
         this.each(function( ){
             var me=$(this);
             (new CDatepicker).init(me,o);
